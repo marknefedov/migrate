@@ -3,14 +3,15 @@ package cassandra
 import (
 	"context"
 	"fmt"
-	"github.com/golang-migrate/migrate/v4"
 	"strconv"
 	"testing"
+
+	"github.com/golang-migrate/migrate/v4"
 )
 
 import (
+	gocql "github.com/apache/cassandra-gocql-driver/v2"
 	"github.com/dhui/dktest"
-	"github.com/gocql/gocql"
 )
 
 import (
